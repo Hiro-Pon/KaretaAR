@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5976E89F217F3A640047AB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976E89E217F3A640047AB4E /* AppDelegate.swift */; };
+		5976E8A1217F3A640047AB4E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8A0217F3A640047AB4E /* art.scnassets */; };
+		5976E8A3217F3A640047AB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976E8A2217F3A640047AB4E /* ViewController.swift */; };
+		5976E8A6217F3A640047AB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8A4217F3A640047AB4E /* Main.storyboard */; };
+		5976E8A8217F3A650047AB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8A7217F3A650047AB4E /* Assets.xcassets */; };
+		5976E8AB217F3A650047AB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8A9217F3A650047AB4E /* LaunchScreen.storyboard */; };
+		5976E8B6217F3A650047AB4E /* KaretaARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976E8B5217F3A650047AB4E /* KaretaARTests.swift */; };
+		5976E8C1217F3A650047AB4E /* KaretaARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976E8C0217F3A650047AB4E /* KaretaARUITests.swift */; };
+		5976E8D5217F3D4F0047AB4E /* Saisyukan_iKareta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8CF217F3D4F0047AB4E /* Saisyukan_iKareta.mp3 */; };
+		5976E8D6217F3D4F0047AB4E /* U16.png in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8D0217F3D4F0047AB4E /* U16.png */; };
+		5976E8D7217F3D4F0047AB4E /* neg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8D1217F3D4F0047AB4E /* neg.png */; };
+		5976E8D8217F3D4F0047AB4E /* DrKranke.png in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8D2217F3D4F0047AB4E /* DrKranke.png */; };
+		5976E8D9217F3D4F0047AB4E /* Kareta.png in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8D3217F3D4F0047AB4E /* Kareta.png */; };
+		5976E8DA217F3D4F0047AB4E /* KamakiriShuji.png in Resources */ = {isa = PBXBuildFile; fileRef = 5976E8D4217F3D4F0047AB4E /* KamakiriShuji.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5976E8B2217F3A650047AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5976E893217F3A640047AB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5976E89A217F3A640047AB4E;
+			remoteInfo = KaretaAR;
+		};
+		5976E8BD217F3A650047AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5976E893217F3A640047AB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5976E89A217F3A640047AB4E;
+			remoteInfo = KaretaAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5976E89B217F3A640047AB4E /* KaretaAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaretaAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5976E89E217F3A640047AB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5976E8A0217F3A640047AB4E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5976E8A2217F3A640047AB4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5976E8A5217F3A640047AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5976E8A7217F3A650047AB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5976E8AA217F3A650047AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5976E8AC217F3A650047AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5976E8B1217F3A650047AB4E /* KaretaARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaretaARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5976E8B5217F3A650047AB4E /* KaretaARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaretaARTests.swift; sourceTree = "<group>"; };
+		5976E8B7217F3A650047AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5976E8BC217F3A650047AB4E /* KaretaARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaretaARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5976E8C0217F3A650047AB4E /* KaretaARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaretaARUITests.swift; sourceTree = "<group>"; };
+		5976E8C2217F3A650047AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5976E8CF217F3D4F0047AB4E /* Saisyukan_iKareta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Saisyukan_iKareta.mp3; sourceTree = "<group>"; };
+		5976E8D0217F3D4F0047AB4E /* U16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U16.png; sourceTree = "<group>"; };
+		5976E8D1217F3D4F0047AB4E /* neg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neg.png; sourceTree = "<group>"; };
+		5976E8D2217F3D4F0047AB4E /* DrKranke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrKranke.png; sourceTree = "<group>"; };
+		5976E8D3217F3D4F0047AB4E /* Kareta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kareta.png; sourceTree = "<group>"; };
+		5976E8D4217F3D4F0047AB4E /* KamakiriShuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KamakiriShuji.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5976E898217F3A640047AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8AE217F3A650047AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8B9217F3A650047AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5976E892217F3A640047AB4E = {
+			isa = PBXGroup;
+			children = (
+				5976E89D217F3A640047AB4E /* KaretaAR */,
+				5976E8B4217F3A650047AB4E /* KaretaARTests */,
+				5976E8BF217F3A650047AB4E /* KaretaARUITests */,
+				5976E89C217F3A640047AB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5976E89C217F3A640047AB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5976E89B217F3A640047AB4E /* KaretaAR.app */,
+				5976E8B1217F3A650047AB4E /* KaretaARTests.xctest */,
+				5976E8BC217F3A650047AB4E /* KaretaARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5976E89D217F3A640047AB4E /* KaretaAR */ = {
+			isa = PBXGroup;
+			children = (
+				5976E89E217F3A640047AB4E /* AppDelegate.swift */,
+				5976E8A0217F3A640047AB4E /* art.scnassets */,
+				5976E8A2217F3A640047AB4E /* ViewController.swift */,
+				5976E8A4217F3A640047AB4E /* Main.storyboard */,
+				5976E8A7217F3A650047AB4E /* Assets.xcassets */,
+				5976E8A9217F3A650047AB4E /* LaunchScreen.storyboard */,
+				5976E8AC217F3A650047AB4E /* Info.plist */,
+				5976E8CE217F3D4F0047AB4E /* karetaDeta */,
+			);
+			path = KaretaAR;
+			sourceTree = "<group>";
+		};
+		5976E8B4217F3A650047AB4E /* KaretaARTests */ = {
+			isa = PBXGroup;
+			children = (
+				5976E8B5217F3A650047AB4E /* KaretaARTests.swift */,
+				5976E8B7217F3A650047AB4E /* Info.plist */,
+			);
+			path = KaretaARTests;
+			sourceTree = "<group>";
+		};
+		5976E8BF217F3A650047AB4E /* KaretaARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5976E8C0217F3A650047AB4E /* KaretaARUITests.swift */,
+				5976E8C2217F3A650047AB4E /* Info.plist */,
+			);
+			path = KaretaARUITests;
+			sourceTree = "<group>";
+		};
+		5976E8CE217F3D4F0047AB4E /* karetaDeta */ = {
+			isa = PBXGroup;
+			children = (
+				5976E8CF217F3D4F0047AB4E /* Saisyukan_iKareta.mp3 */,
+				5976E8D0217F3D4F0047AB4E /* U16.png */,
+				5976E8D1217F3D4F0047AB4E /* neg.png */,
+				5976E8D2217F3D4F0047AB4E /* DrKranke.png */,
+				5976E8D3217F3D4F0047AB4E /* Kareta.png */,
+				5976E8D4217F3D4F0047AB4E /* KamakiriShuji.png */,
+			);
+			path = karetaDeta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5976E89A217F3A640047AB4E /* KaretaAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5976E8C5217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaAR" */;
+			buildPhases = (
+				5976E897217F3A640047AB4E /* Sources */,
+				5976E898217F3A640047AB4E /* Frameworks */,
+				5976E899217F3A640047AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaretaAR;
+			productName = KaretaAR;
+			productReference = 5976E89B217F3A640047AB4E /* KaretaAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5976E8B0217F3A650047AB4E /* KaretaARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5976E8C8217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaARTests" */;
+			buildPhases = (
+				5976E8AD217F3A650047AB4E /* Sources */,
+				5976E8AE217F3A650047AB4E /* Frameworks */,
+				5976E8AF217F3A650047AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5976E8B3217F3A650047AB4E /* PBXTargetDependency */,
+			);
+			name = KaretaARTests;
+			productName = KaretaARTests;
+			productReference = 5976E8B1217F3A650047AB4E /* KaretaARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5976E8BB217F3A650047AB4E /* KaretaARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5976E8CB217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaARUITests" */;
+			buildPhases = (
+				5976E8B8217F3A650047AB4E /* Sources */,
+				5976E8B9217F3A650047AB4E /* Frameworks */,
+				5976E8BA217F3A650047AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5976E8BE217F3A650047AB4E /* PBXTargetDependency */,
+			);
+			name = KaretaARUITests;
+			productName = KaretaARUITests;
+			productReference = 5976E8BC217F3A650047AB4E /* KaretaARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5976E893217F3A640047AB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "笠原未来";
+				TargetAttributes = {
+					5976E89A217F3A640047AB4E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5976E8B0217F3A650047AB4E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5976E89A217F3A640047AB4E;
+					};
+					5976E8BB217F3A650047AB4E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5976E89A217F3A640047AB4E;
+					};
+				};
+			};
+			buildConfigurationList = 5976E896217F3A640047AB4E /* Build configuration list for PBXProject "KaretaAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5976E892217F3A640047AB4E;
+			productRefGroup = 5976E89C217F3A640047AB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5976E89A217F3A640047AB4E /* KaretaAR */,
+				5976E8B0217F3A650047AB4E /* KaretaARTests */,
+				5976E8BB217F3A650047AB4E /* KaretaARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5976E899217F3A640047AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5976E8D9217F3D4F0047AB4E /* Kareta.png in Resources */,
+				5976E8D6217F3D4F0047AB4E /* U16.png in Resources */,
+				5976E8D8217F3D4F0047AB4E /* DrKranke.png in Resources */,
+				5976E8A1217F3A640047AB4E /* art.scnassets in Resources */,
+				5976E8AB217F3A650047AB4E /* LaunchScreen.storyboard in Resources */,
+				5976E8D7217F3D4F0047AB4E /* neg.png in Resources */,
+				5976E8DA217F3D4F0047AB4E /* KamakiriShuji.png in Resources */,
+				5976E8A8217F3A650047AB4E /* Assets.xcassets in Resources */,
+				5976E8D5217F3D4F0047AB4E /* Saisyukan_iKareta.mp3 in Resources */,
+				5976E8A6217F3A640047AB4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8AF217F3A650047AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8BA217F3A650047AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5976E897217F3A640047AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5976E8A3217F3A640047AB4E /* ViewController.swift in Sources */,
+				5976E89F217F3A640047AB4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8AD217F3A650047AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5976E8B6217F3A650047AB4E /* KaretaARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5976E8B8217F3A650047AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5976E8C1217F3A650047AB4E /* KaretaARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5976E8B3217F3A650047AB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5976E89A217F3A640047AB4E /* KaretaAR */;
+			targetProxy = 5976E8B2217F3A650047AB4E /* PBXContainerItemProxy */;
+		};
+		5976E8BE217F3A650047AB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5976E89A217F3A640047AB4E /* KaretaAR */;
+			targetProxy = 5976E8BD217F3A650047AB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5976E8A4217F3A640047AB4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5976E8A5217F3A640047AB4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5976E8A9217F3A650047AB4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5976E8AA217F3A650047AB4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5976E8C3217F3A650047AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5976E8C4217F3A650047AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5976E8C6217F3A650047AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ44R4777H;
+				INFOPLIST_FILE = KaretaAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5976E8C7217F3A650047AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ44R4777H;
+				INFOPLIST_FILE = KaretaAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5976E8C9217F3A650047AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaretaARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaretaAR.app/KaretaAR";
+			};
+			name = Debug;
+		};
+		5976E8CA217F3A650047AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaretaARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaretaAR.app/KaretaAR";
+			};
+			name = Release;
+		};
+		5976E8CC217F3A650047AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaretaARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaretaAR;
+			};
+			name = Debug;
+		};
+		5976E8CD217F3A650047AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaretaARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaretaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaretaAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5976E896217F3A640047AB4E /* Build configuration list for PBXProject "KaretaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5976E8C3217F3A650047AB4E /* Debug */,
+				5976E8C4217F3A650047AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5976E8C5217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5976E8C6217F3A650047AB4E /* Debug */,
+				5976E8C7217F3A650047AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5976E8C8217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5976E8C9217F3A650047AB4E /* Debug */,
+				5976E8CA217F3A650047AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5976E8CB217F3A650047AB4E /* Build configuration list for PBXNativeTarget "KaretaARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5976E8CC217F3A650047AB4E /* Debug */,
+				5976E8CD217F3A650047AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5976E893217F3A640047AB4E /* Project object */;
+}
